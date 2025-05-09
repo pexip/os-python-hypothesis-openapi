@@ -1,0 +1,5 @@
+python-hypothesis-openapi (0.2.1-0+pexip25u1) pexip-trixie; urgency=medium
+
+  * Prepare Pexip Packaging
+
+ -- Huw Jones <huw@pexip.com>  Fri, 9 May 2025 16:24:02 +0100

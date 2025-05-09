@@ -1,0 +1,29 @@
+Source: python-hypothesis-openapi
+Section: python
+Priority: optional
+Maintainer: Pexip AS <packaging@pexip.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13),
+ dh-sequence-python3,
+ pybuild-plugin-pyproject,
+ python3-setuptools,
+ python3-all,
+ python3-hatchling,
+ python3-hypothesis (>= 6.84.3),
+ python3-pytest (>= 6.2.0) <!nocheck>,
+ python3-jsonschema <!nocheck>,
+ python3-referencing (>= 0.35~) <!nocheck>,
+Standards-Version: 4.6.2
+Homepage: https://github.com/Stranger6667/hypothesis-openapi
+Vcs-Browser: https://github.com/pexip/os-python-hypothesis-openapi
+Vcs-Git: https://github.com/pexip/os-python-hypothesis-openapi.git
+
+Package: python3-hypothesis-openapi
+Architecture: all
+Depends:
+ ${python3:Depends},
+ ${misc:Depends},
+Description: Hypothesis plugin for generating valid Open API documents
+ .
+ This package installs the library for Python 3.
